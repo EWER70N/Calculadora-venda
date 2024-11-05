@@ -1,0 +1,33 @@
+body { 
+    font-family: Arial, sans-serif; 
+    max-width: 600px; 
+    margin: auto; 
+    padding: 20px; 
+    background-color: #f2f2f2; }
+h1, .total { 
+    text-align: center; }
+.product-form { 
+    display: flex; 
+    gap: 10px; 
+    margin-bottom: 10px;
+    
+ }
+.product-form input { 
+    padding: 8px; 
+    width: 100%; 
+    border-radius:1.5rem;}
+#product-list { margin-bottom: 20px; }
+button, select { 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+    border-radius:1.5rem;
+}
+    
+#add-product-btn { 
+    background-color: #008CBA; 
+    color: white; }
+#calculate-btn { 
+    background-color: #4CAF50; 
+    color: white; }
